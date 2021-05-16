@@ -1,0 +1,25 @@
+{
+  "name": "typoteka",
+  "version": "1.0.0",
+  "description": "Типотека",
+  "main": "./src/service/service.js",
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "eslint --ext .js src/",
+    "start": "node ./src/service/service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasha-who/typoteka.git"
+  },
+  "author": "Sasha Smygina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasha-who/typoteka/issues"
+  },
+  "homepage": "https://github.com/sasha-who/typoteka#readme",
+  "devDependencies": {
+    "eslint": "7.26.0",
+    "eslint-config-htmlacademy": "0.6.0"
+  }
+}
